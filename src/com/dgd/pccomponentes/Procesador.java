@@ -11,6 +11,7 @@ public class Procesador {
     private Integer id;
     private String marca;
     private String fabricante;
+    private String zocalo;
 
     /**
      * Métodos, funciones, comportamiento
@@ -32,5 +33,11 @@ public class Procesador {
     }
     public void setFabricante(String fabricante){
         this.fabricante = fabricante;
+    }
+    public String getZocalo(){
+        return zocalo;
+    }
+    public void setZocalo(String zocalo){
+        this.zocalo = zocalo;
     }
 }
