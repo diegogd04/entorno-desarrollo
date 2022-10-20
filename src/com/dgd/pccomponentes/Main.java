@@ -65,6 +65,35 @@ public class Main extends Application {
 
         System.out.println(gigabyte.getMarca());
         System.out.println(gigabyte.getTipoMemoria());
+        System.out.println(gigabyte.getCapacidadMemoria());
+
+        /**
+         * MemoriaRam
+         */
+
+        MemoriaRam corsair = new MemoriaRam();
+        corsair.setId(1);
+        corsair.setMarca("Corsair");
+        corsair.setTipo("DDR4");
+        corsair.setSize("16GB");
+
+        System.out.println(corsair.getMarca());
+        System.out.println(corsair.getTipo());
+        System.out.println(corsair.getSize());
+
+        /**
+         * Caja
+         */
+
+        Caja tempest = new Caja();
+        tempest.setId(1);
+        tempest.setMarca("Tempest");
+        tempest.setDimension("360 x 210 x 470 mm");
+        tempest.setPlacaBase("ATX");
+
+        System.out.println(tempest.getMarca());
+        System.out.println(tempest.getDimension());
+        System.out.println(tempest.getPlacaBase());
     }
 
     @Override
