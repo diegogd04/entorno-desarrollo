@@ -62,6 +62,9 @@ public class Main extends Application {
         gigabyte.setMarca("Gigabyte");
         gigabyte.setTipoMemoria("GDDR6");
         gigabyte.setCapacidadMemoria("12GB");
+
+        System.out.println(gigabyte.getMarca());
+        System.out.println(gigabyte.getTipoMemoria());
     }
 
     @Override
