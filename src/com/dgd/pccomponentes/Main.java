@@ -108,6 +108,22 @@ public class Main extends Application {
         System.out.println(marsGaming.getMarca());
         System.out.println(marsGaming.getCpu());
         System.out.println(marsGaming.getSoporte());
+
+        /**
+         * DiscoDuro
+         */
+
+        DiscoDuro kingston = new DiscoDuro();
+        kingston.setId(1);
+        kingston.setMarca("Kingston");
+        kingston.setVelocidadLectura("500MB/s");
+        kingston.setVelocidadEscritura("450MB/s");
+        kingston.setCapacidad("480GB");
+
+        System.out.println(kingston.getMarca());
+        System.out.println(kingston.getVelocidadLectura());
+        System.out.println(kingston.getVelocidadEscritura());
+        System.out.println(kingston.getCapacidad());
     }
 
     @Override
