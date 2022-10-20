@@ -94,6 +94,20 @@ public class Main extends Application {
         System.out.println(tempest.getMarca());
         System.out.println(tempest.getDimension());
         System.out.println(tempest.getPlacaBase());
+
+        /**
+         * VentiladorCpu
+         */
+
+        VentiladorCpu marsGaming = new VentiladorCpu();
+        marsGaming.setId(1);
+        marsGaming.setMarca("Mars Gaming");
+        marsGaming.setCpu("Intel y AMD");
+        marsGaming.setSoporte(" LGA 2066/2011/1700/1200/1156/1155/1151/1150/1366 y AM5/AM4/AM3+/AM3/AM2+/AM2/FM2/FM1");
+
+        System.out.println(marsGaming.getMarca());
+        System.out.println(marsGaming.getCpu());
+        System.out.println(marsGaming.getSoporte());
     }
 
     @Override
