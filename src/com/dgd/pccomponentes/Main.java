@@ -138,6 +138,20 @@ public class Main extends Application {
         System.out.println(approx.getMarca());
         System.out.println(approx.getTipo());
         System.out.println(approx.getPotencia());
+
+        /**
+         * TarjetaSonido
+         */
+
+        TarjetaSonido soundBlaster = new TarjetaSonido();
+        soundBlaster.setId(1);
+        soundBlaster.setMarca("Sound Blaster");
+        soundBlaster.setPuertos("3 x Conector de 3,5 mm, 1 x TOSLINK (entrada), 1 x TOSLINK (salida)");
+        soundBlaster.setSoftware("Sound Core3D");
+
+        System.out.println(soundBlaster.getMarca());
+        System.out.println(soundBlaster.getPuertos());
+        System.out.println(soundBlaster.getSoftware());
     }
 
     @Override
