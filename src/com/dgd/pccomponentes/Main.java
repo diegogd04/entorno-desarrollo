@@ -124,6 +124,20 @@ public class Main extends Application {
         System.out.println(kingston.getVelocidadLectura());
         System.out.println(kingston.getVelocidadEscritura());
         System.out.println(kingston.getCapacidad());
+
+        /**
+         * FuenteAlimentacion
+         */
+
+        FuenteAlimentacion approx = new FuenteAlimentacion();
+        approx.setId(1);
+        approx.setMarca("Approx");
+        approx.setTipo("ATX");
+        approx.setPotencia("800W");
+
+        System.out.println(approx.getMarca());
+        System.out.println(approx.getTipo());
+        System.out.println(approx.getPotencia());
     }
 
     @Override
