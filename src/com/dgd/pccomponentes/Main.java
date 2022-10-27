@@ -1,9 +1,6 @@
 package com.dgd.pccomponentes;
 
-import javafx.application.Application;
-import javafx.stage.Stage;
-
-public class Main extends Application {
+public class Main {
 
     public static void main(String[] args) {
 
@@ -152,10 +149,5 @@ public class Main extends Application {
         System.out.println(soundBlaster.getMarca());
         System.out.println(soundBlaster.getPuertos());
         System.out.println(soundBlaster.getSoftware());
-    }
-
-    @Override
-    public void start(Stage primaryStage) {
-
     }
 }
